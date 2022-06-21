@@ -1,5 +1,5 @@
 # AxinomTest
-#Running the Project 
+# Running the Project 
 
 Since these are two ASP .NET 3.1 Web app core projects so we need a proper setting for the deployment of these applications. But for the sake of ease, I provide you with a simple mechanism to run the project and follow the given steps. 
 
@@ -21,9 +21,9 @@ Since these are two ASP .NET 3.1 Web app core projects so we need a proper setti
 
 6. Upon zip file upload it will automatically send the zip file extract content to receiver side using the basic auth (username: password = test: test). 
 
-#References 
+# References 
 
-#Git Repository: 
+# Git Repository: 
 
 This repository is public. You can further communicate with me via email if any additional information is required. Thanks. 
 

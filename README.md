@@ -30,4 +30,4 @@ This repository is public. You can further communicate with me via email if any 
 Email: ali.raza.farooq@gmail.com 
 
 # Note:
-I tried the docker deployment but for some reason my system is keep closing docker desktop and docker container service will not even start. Was using following link https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/ for deploying applications on different containers and run them using docker compose.
+I tried the docker deployment but for some reason my system keep closing docker desktop and docker container service will not even start. Was using following link https://www.freecodecamp.org/news/run-multiple-containers-with-docker-compose/ for deploying applications on different containers and run them using docker compose.

@@ -1,0 +1,83 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+*@
+@{
+    ViewBag.Title = "Zip File Submissions";
+}
+
+
+<h2>Zip File Submissions</h2>
+<div>
+    <table id="t01">
+        <thead>
+        <th>Name</th>
+        <th>CompressedLength</th>
+        <th>Length</th>
+        <th>LastWriteTime</th>
+        <th>ExternalAttributes</th>
+        <th>Crc32</th>
+        <th>FullName</th>
+        </thead>
+        @foreach (var item in ViewBag.files)
+        {
+
+            <tr>
+                <td>
+                    @item.FullName
+                </td>
+                <td>
+                    @item.CompressedLength
+                </td>
+                <td>
+                    @item.Length
+                </td>
+                <td>
+                    @item.LastWriteTime
+                </td>
+                <td>
+                    @item.ExternalAttributes
+                </td>
+                <td>
+                    @item.Crc32
+                </td>
+                <td>
+                    @item.Name
+                </td>
+            </tr>
+
+        }
+
+    </table>
+</div>
+<style>  
+table#t01 {  
+width: 100%;  
+background-color: #f1f1c1;  
+}  
+  
+table#t01 tr:nth-child(even) {  
+background-color: #eee;  
+}  
+table#t01 tr:nth-child(odd) {  
+background-color: #fff;  
+}  
+table#t01 th {  
+color: white;  
+background-color:black;  
+}  
+table, th, td {  
+border: 1px solid black;  
+}  
+table, th, td {  
+border: 1px solid black;  
+border-collapse: collapse;  
+}  
+table, th, td {  
+border: 1px solid black;  
+border-collapse: collapse;  
+}  
+th, td {  
+padding: 15px;  
+}  
+</style>
